@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="link.html" method="GET">
+        <label for="firstname">First Name:</label>
+        <input type="text" placeholder="Enter first name" id="firstname">
+        <br><br>
+        <label>Last Name:</label>
+        <input type="text" placeholder="Enter Last name">
+        <br><br>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter email">
+        <br><br>
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date">
+        <br><br>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password">
+        <br><br>
+        <label for="gender">Select Gender</label>
+        <input type="radio" value="male" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" value="female" id="female" name="gender">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="country">Select Country</label>
+        <select id="country">
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <br><br>
+        <textarea placeholder="write" rows="10" cols="50"></textarea>
+        <br><br>
+        <label for="file">File Upload:</label>
+        <input type="file" value="file" id="file">
+        <br><br>
+        <input type="checkbox" id="terms" value="agree">
+        <label for="terms"> I agree on the terms annd connditions.</label>
+        <br><br>
+        <label for="searchQuery">Search:</label>
+        <input type="text" id="searchQuery" placeholder="Enter your query">
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
